@@ -30,7 +30,7 @@ WorkoutBuddies is a workout app that pairs similar-leveled users and creates a w
 * User can edit a system generated agenda
 * User matches with another user with same the level of expertise
 * User can meet others through Zoom
-* User can search for other users/
+* User can search for other users
 
 **Optional Nice-to-have Stories**
 
@@ -40,24 +40,35 @@ WorkoutBuddies is a workout app that pairs similar-leveled users and creates a w
 
 ### 2. Screen Archetypes
 
-* Login Screen
-   * User can login
-* Registration Screen
-   * User can create their accounts
-* Home Feed Screen
+* Login and Registration Screen   
+    * User can log in  
+    * User can create their accounts
+* Home Screen 
     * User can view the people they can schedule a workout session with
-    * User can schedule workout
-* Creation Screen
-    * User can post a new workout if none of the workouts posted satisfies them
-* Detail Screen
-    * Displaying the details of the workouts
-    * User can schedule workout
-* Profile Screen
+    * User can view possible workout buddies
+    * User can schedule workout plan
+* Create Plan Screen
+    * User can create a workout place 
+* Workout Plan Screen
+    * System generates a plan which the user can edit
+* Suggestions Screen
+    * User can view a full list of suggested workout buddies  
+* Buddy Detail Screen
+    * Displays the profile of another user
+* New Event Screen
+    * User can schedule a workout with another user
+* User Profile Screen 
     * User can view user-related information
     * User can view upcoming, scheduled workouts
 * Search Screen
     * Users can search for other pairs if current pairs aren't satisfactory
     * Search by workout expertise, category, and/or name
+* View Chats Screen
+    * User can view all chats
+* Chat Screen
+    * User can see the chat with another user
+* FaceTime Screen
+    * User can facetime another user and view the workout plan at the same time
 
 ### 3. Navigation
 
@@ -66,24 +77,32 @@ WorkoutBuddies is a workout app that pairs similar-leveled users and creates a w
 * Home Feed
 * Profile
 * Search
+* Chat
 
 **Flow Navigation** (Screen to Screen)
-* Login Screen
-    * => Home Screen
-* Registration Screen
+* Login and Registration Screen
     * => Home Screen
 * Home Screen
-   * => Detail Screen
-   * => Creation Screen
+   * => Search Screen
+   * => View Chats Screen
+   * => Profile Screen
+   * => Create Plan Screen
+   * => Suggestions Screen
 * Search Screen
-    * => Detail Screen
-    * => Creation Screen
-* Profile
-    * => Detail Screen
-    * => Creation Screen
+    * => Buddy Detail Screen
+* View Chats Screen
+    * => Chats Screen
+        * => FaceTime Screen
+* User Profile Screen
+* Create Plan Screen 
+    * => Workout Plan Screen
+* Suggestions Screen
+    * => Buddy Details Screen
+        * => New Event Screen
 
 ## Wireframes
-[Initial App Wireframes](https://i.imgur.com/jdwlKNE.jpg)
+[Add picture of your hand sketched wireframes in this section]
+<img src="https://raw.githubusercontent.com/lmxtiger/Codepath-APP-2020-Fall/main/Image%20from%20iOS.jpg" width=600>
 
 ### [BONUS] Digital Wireframes & Mockups
 
